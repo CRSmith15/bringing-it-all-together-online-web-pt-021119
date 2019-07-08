@@ -100,6 +100,8 @@ class Dog
     UPDATE dogs SET name = ?, breed  = ? 
     WHERE id = ?
     SQL
+    
+    DB[:conn].execute
   end 
   
 end
